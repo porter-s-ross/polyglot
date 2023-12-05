@@ -1,0 +1,43 @@
+body {
+    margin: 0;
+}
+
+nav {
+    position: relative;
+}
+
+.nav-background {
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+}
+
+.nav-background>img {
+    width: 100%
+}
+
+.nav-content {
+    position: relative;
+    z-index: 2;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
